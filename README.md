@@ -2,7 +2,7 @@
 
 `BadgeIt` is a simple mac command line utility that adds a text "banner" and "alpha" or "beta" badge to the App icon
 
-"But wait, there's already a tool that does this, [HazAT/badge](https://github.com/HazAT/badge), why shouldn't I just it instead?", you say.
+"But wait, there's already a tool that does this, [HazAT/badge](https://github.com/HazAT/badge), why shouldn't I just use it instead?", you say.
 
 The answer is simple.  You should.  If it works for you and does the job you need it to, then you should use it, it's really great.
 
