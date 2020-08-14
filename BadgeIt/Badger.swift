@@ -49,10 +49,8 @@ class Badger {
 
 	static func badge(icon: URL, withBannerText bannerText: String, subBannerText: String, badge: BadgeStyle) throws -> NSImage {
 		// Load the icon from the back, which should be the original, so it should be clean
-//		let backup = icon.backup
-//		guard backup.exists else { throw Error.backDoesNotExists(for: backup)  }
-		
-		let backup = icon
+		let backup = icon.backup
+		guard backup.exists else { throw Error.backupDoesNotExists(for: backup)  }
 		
 		print("Loading icon asset from \(backup)".debug)
 		guard let image = NSImage(contentsOf: backup) else { throw Error.failedToLoadIcon(from: backup) }
