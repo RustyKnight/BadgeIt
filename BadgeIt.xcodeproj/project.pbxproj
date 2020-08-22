@@ -21,6 +21,9 @@
 		18E57E1124E246A5002A92C8 /* Archiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E57E1024E246A5002A92C8 /* Archiver.swift */; };
 		18E57E1324E24FC1002A92C8 /* URL+backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E57E1224E24FC1002A92C8 /* URL+backup.swift */; };
 		18E57E1524E254E6002A92C8 /* NSImage+PixelSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E57E1424E254E6002A92C8 /* NSImage+PixelSize.swift */; };
+		18E6993024EEA310000847CF /* ReleaseCandidateBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6992F24EEA310000847CF /* ReleaseCandidateBadge.swift */; };
+		18E6993224EEA349000847CF /* ReleaseBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6993124EEA349000847CF /* ReleaseBadge.swift */; };
+		18F110D224F0D9CF00263C6B /* AssetGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F110D124F0D9CF00263C6B /* AssetGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +53,9 @@
 		18E57E1024E246A5002A92C8 /* Archiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archiver.swift; sourceTree = "<group>"; };
 		18E57E1224E24FC1002A92C8 /* URL+backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+backup.swift"; sourceTree = "<group>"; };
 		18E57E1424E254E6002A92C8 /* NSImage+PixelSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+PixelSize.swift"; sourceTree = "<group>"; };
+		18E6992F24EEA310000847CF /* ReleaseCandidateBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseCandidateBadge.swift; sourceTree = "<group>"; };
+		18E6993124EEA349000847CF /* ReleaseBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseBadge.swift; sourceTree = "<group>"; };
+		18F110D124F0D9CF00263C6B /* AssetGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +96,11 @@
 				18E57DFB24E2071E002A92C8 /* Badger.swift */,
 				18E57E0224E22850002A92C8 /* AlphaBadge.swift */,
 				18E57E0424E22911002A92C8 /* BetaBadge.swift */,
+				18E6992F24EEA310000847CF /* ReleaseCandidateBadge.swift */,
+				18E6993124EEA349000847CF /* ReleaseBadge.swift */,
 				18E57E0624E234F5002A92C8 /* AssetParser.swift */,
 				18E57E1024E246A5002A92C8 /* Archiver.swift */,
+				18F110D124F0D9CF00263C6B /* AssetGenerator.swift */,
 			);
 			path = BadgeIt;
 			sourceTree = "<group>";
@@ -176,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E57E0124E207CB002A92C8 /* NSImage+PNG.swift in Sources */,
+				18E6993224EEA349000847CF /* ReleaseBadge.swift in Sources */,
 				18D5F00C24E26756005BF684 /* NSImage+Scale.swift in Sources */,
 				18E57E1324E24FC1002A92C8 /* URL+backup.swift in Sources */,
 				18E57E0324E22850002A92C8 /* AlphaBadge.swift in Sources */,
@@ -183,6 +193,8 @@
 				18E57E1524E254E6002A92C8 /* NSImage+PixelSize.swift in Sources */,
 				18E57E0524E22911002A92C8 /* BetaBadge.swift in Sources */,
 				18DBD75F24E1326B0016448B /* main.swift in Sources */,
+				18E6993024EEA310000847CF /* ReleaseCandidateBadge.swift in Sources */,
+				18F110D224F0D9CF00263C6B /* AssetGenerator.swift in Sources */,
 				18E57E1124E246A5002A92C8 /* Archiver.swift in Sources */,
 				18E57DFF24E207A8002A92C8 /* NSImage+CGImage.swift in Sources */,
 				18E57E0F24E23B83002A92C8 /* String+Color.swift in Sources */,

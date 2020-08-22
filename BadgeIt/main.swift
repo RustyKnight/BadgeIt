@@ -80,4 +80,13 @@ struct BadgeIt: ParsableCommand {
 	}
 }
 
-BadgeIt.main()
+let arguments = CommandLine.arguments.dropFirst().compactMap { $0 }
+if arguments.first == "generate" {
+	print()
+	AlphaBadge.generate()
+	BetaBadge.generate()
+	ReleaseCandidateBadge.generate()
+	ReleaseBadge.generate()
+} else {
+	BadgeIt.main()
+}
